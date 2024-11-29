@@ -16,6 +16,26 @@ Which ends up looking best for you?
 
 ## PNG image file
 
+### Typical run
+
+<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-typical.png">
+    <img src="/ptrcheck-typical.png" />
+</a>
+
+### Verbose run
+
+<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-verbose.png">
+    <img src="/ptrcheck-verbose.png" />
+</a>
+
+### Another verbose run
+
+<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-verbose2.png">
+    <img src="/ptrcheck-verbose2.png" />
+</a>
+
+### Observations
+
 A screenshot to an image is going to be great for exactly replicating how
 these things look for me on my screen, but I have concern that my display is
 going to be of a very different resolution to the reader's. If they need to
@@ -36,25 +56,27 @@ Just adding these as
 seems to result in an embedded image with the width of the browser that links
 to the raw file (without that it links to the repository page).
 
+## SVG document
+
 ### Typical run
 
-<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-typical.png">
-    <img src="/ptrcheck-typical.png" />
+<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-typical.svg">
+    <img src="ptrcheck-typical.svg" />
 </a>
 
 ### Verbose run
 
-<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-verbose.png">
-    <img src="/ptrcheck-verbose.png" />
+<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-verbose.svg">
+    <img src="ptrcheck-verbose.svg" />
 </a>
 
 ### Another verbose run
 
-<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-verbose2.png">
-    <img src="/ptrcheck-verbose2.png" />
+<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-verbose2.svg">
+    <img src="/ptrcheck-verbose2.svg" />
 </a>
 
-## SVG document
+### Observations
 
 It's possible to do a screenshot to SVG that directly uses the actual text
 from the terminal so in theory it's friendly to copy and paste and screen
@@ -111,24 +133,6 @@ text.
 
 So my experience with this is quite positive. I think I like it better than
 the PNGs.
-
-### Typical run
-
-<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-typical.svg">
-    <img src="ptrcheck-typical.svg" />
-</a>
-
-### Verbose run
-
-<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-verbose.svg">
-    <img src="ptrcheck-verbose.svg" />
-</a>
-
-### Another verbose run
-
-<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-verbose2.svg">
-    <img src="/ptrcheck-verbose2.svg" />
-</a>
 
 ## Link out to HTML
 
