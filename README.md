@@ -135,8 +135,8 @@ possible to tell `freeze` to embed a font into the SVG but that will make the
 SVG literally megabytes in size. I'm not sure these examples really need it.
 
 All the SVGs seem to start off more zoomed out that my PNG screenshots, but
-it's actually pleasing that they look more uniform. If you do "open image in
-new tab/window" in your browser then you can zoom them in and out and they
+it's actually pleasing that they look more uniform. Clicking/tapping on them
+leads to the actual SVG file which you can zoom in and out on and they should
 retain the crispness. For me it is also possible then to copy/paste the actual
 text.
 
