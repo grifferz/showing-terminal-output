@@ -12,6 +12,8 @@ The obvious choices seem to be:
 - SVG document
 - Link out to HTML
 
+Which ends up looking best for you?
+
 ## PNG image file
 
 A screenshot to an im,age is going to be great for exactly replicating how
