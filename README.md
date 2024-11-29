@@ -25,6 +25,17 @@ My other major concern is that it's not accessible to those using screen
 readers. I mean I _can_ include a gigantic alt text but that's quite
 difficult.
 
+Just adding these as `<img src="/ptrcheck-typical.png" />` seems to result in an embedded image with the width of the browser.
+
+### Typical run
+<img src="/ptrcheck-typical.png" />
+
+### Verbose run
+<img src="/ptrcheck-verbose.png" />
+
+### Another verbose run
+<img src="/ptrcheck-verbose2.png" />
+
 ## SVG document
 
 It's possible to do a screenshot to SVG that directly uses the actual text
