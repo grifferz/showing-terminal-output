@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="1024.00" height="150.00" xmlns="http://www.w3.org/2000/svg">
+<rect width="1024.00" height="150.00" fill="#171717" x="0.00px" y="0.00px"/>
+<g font-family="monospace" font-size="14.00px" fill="#c4c4c4" clip-path="url(#terminalMask)">
+<text x="20.00px" y="36.80px" xml:space="preserve"><tspan xml:space="preserve">$ ptrcheck --server [::1] --zone strugglers.net</tspan></text><text x="20.00px" y="53.60px" xml:space="preserve"><tspan xml:space="preserve" fill="#00FEFE">➡ 192.168.9.10 is pointed to by:</tspan></text><text x="20.00px" y="70.40px" xml:space="preserve"><tspan xml:space="preserve">    intentionally-broken.strugglers.net.</tspan></text><text x="20.00px" y="87.20px" xml:space="preserve"><tspan xml:space="preserve">    </tspan><tspan xml:space="preserve" fill="#FE5F86">Missing PTR for </tspan><tspan xml:space="preserve" fill="#04D7D7">192.168.9.10</tspan></text><text x="20.00px" y="104.00px" xml:space="preserve"><tspan xml:space="preserve"/><tspan xml:space="preserve" dx="2.80px">🔥 </tspan><tspan xml:space="preserve" fill="#FE5F86">1 missing/broken PTR record</tspan></text>
+</g>
+<defs><clipPath id="terminalMask"><rect x="0.00" y="0.00" width="1024.00" height="130.00"/></clipPath></defs></svg>
