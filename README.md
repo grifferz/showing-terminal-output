@@ -16,7 +16,7 @@ Which ends up looking best for you?
 
 ## PNG image file
 
-A screenshot to an im,age is going to be great for exactly replicating how
+A screenshot to an image is going to be great for exactly replicating how
 these things look for me on my screen, but I have concern that my display is
 going to be of a very different resolution to the reader's. If they need to
 zoom in to see it better it's not going to scale well.
@@ -25,15 +25,19 @@ My other major concern is that it's not accessible to those using screen
 readers. I mean I _can_ include a gigantic alt text but that's quite
 difficult.
 
-Just adding these as `<img src="/ptrcheck-typical.png" />` seems to result in an embedded image with the width of the browser.
+Just adding these as `<img src="/ptrcheck-typical.png" />` seems to result in
+an embedded image with the width of the browser.
 
 ### Typical run
+
 <img src="/ptrcheck-typical.png" />
 
 ### Verbose run
+
 <img src="/ptrcheck-verbose.png" />
 
 ### Another verbose run
+
 <img src="/ptrcheck-verbose2.png" />
 
 ## SVG document
@@ -49,6 +53,18 @@ problems with missing font glyphs for emojis. The examples on this page use:
 - :fire: `:fire:`
 - :sparkles: `:sparkles:`
 - :trophy: `:trophy:`
+
+### Typical run
+
+<img src="/ptrcheck-typical.svg" />
+
+### Verbose run
+
+<img src="/ptrcheck-verbose.svg" />
+
+### Another verbose run
+
+<img src="/ptrcheck-verbose2.svg" />
 
 ## Link out to HTML
 
