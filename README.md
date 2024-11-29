@@ -54,6 +54,23 @@ problems with missing font glyphs for emojis. The examples on this page use:
 - :sparkles: `:sparkles:`
 - :trophy: `:trophy:`
 
+These SVGs were generated with
+[freeze](https://github.com/charmbracelet/freeze). My immediate observation is
+that since I just had to set `font-family: monospace` in there then this is
+very unlikely to show up exactly like screenshots of my terminal (where I use
+CommitMono). It's possible to tell `freeze` to embed a font into the SVG but
+that will make the SVG literally megabytes in size. I'm not sure these
+examples really need it.
+
+All the SVGs seem to start off more zoomes out that my PNG screenshots, but
+it's actually pleasing that they look more uniform. If you do "open image in
+new tab/window" in your browser then you can zoom them in and out and they
+retain the crispness. For me it is also possible then to copy/paste the actual
+text.
+
+So my experience with this is quite positive. I think I like it better than
+the PNGs.
+
 ### Typical run
 
 <img src="/ptrcheck-typical.svg" />
@@ -73,3 +90,5 @@ embedded in Markdown, and for good reason: allowing all manner of styling
 would lead to GitHub looking like Geocities. It may be possible to link out to
 a HTML file hosted in the repository, or to a GitHub pages site, but I'm most
 interested in this being workable from the repository view of GitHub.
+
+I'm not going to pursue this option for now.
