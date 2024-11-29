@@ -33,20 +33,26 @@ Just adding these as
 </a>
 ```
 
-seems to result in
-an embedded image with the width of the browser that links to the raw file (without that it links to the repository page).
+seems to result in an embedded image with the width of the browser that links
+to the raw file (without that it links to the repository page).
 
 ### Typical run
 
-<img src="/ptrcheck-typical.png" />
+<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-typical.png">
+    <img src="/ptrcheck-typical.png" />
+</a>
 
 ### Verbose run
 
-<img src="/ptrcheck-verbose.png" />
+<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-verbose.png">
+    <img src="/ptrcheck-verbose.png" />
+</a>
 
 ### Another verbose run
 
-<img src="/ptrcheck-verbose2.png" />
+<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-verbose2.png">
+    <img src="/ptrcheck-verbose2.png" />
+</a>
 
 ## SVG document
 
@@ -108,15 +114,21 @@ the PNGs.
 
 ### Typical run
 
-<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-typical.svg"><img src="ptrcheck-typical.svg" /></a>
+<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-typical.svg">
+    <img src="ptrcheck-typical.svg" />
+</a>
 
 ### Verbose run
 
-<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-verbose.svg"><img src="ptrcheck-verbose.svg" /></a>
+<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-verbose.svg">
+    <img src="ptrcheck-verbose.svg" />
+</a>
 
 ### Another verbose run
 
-<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-verbose2.svg"><img src="/ptrcheck-verbose2.svg" /></a>
+<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-verbose2.svg">
+    <img src="/ptrcheck-verbose2.svg" />
+</a>
 
 ## Link out to HTML
 
