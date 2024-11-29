@@ -55,12 +55,39 @@ problems with missing font glyphs for emojis. The examples on this page use:
 - :trophy: `:trophy:`
 
 These SVGs were generated with
-[freeze](https://github.com/charmbracelet/freeze). My immediate observation is
-that since I just had to set `font-family: monospace` in there then this is
-very unlikely to show up exactly like screenshots of my terminal (where I use
-CommitMono). It's possible to tell `freeze` to embed a font into the SVG but
-that will make the SVG literally megabytes in size. I'm not sure these
-examples really need it.
+[freeze](https://github.com/charmbracelet/freeze). The command line looked
+something like this:
+
+```bash
+$ freeze --execute \
+    "bash -c '\
+        echo \"\$ ptrcheck --server [::1] --zone strugglers.net\"; \
+        ptrcheck -c always --server [::1] --zone strugglers.net || true'" \
+    -o ptrcheck-typical.svg \
+    --font.family "monospace" \
+    -W "1280" \
+    --font.size "20" \
+    --window \
+    --border.radius "8"
+```
+
+Some notes:
+
+- Wrapping the command to execute in `bash -c 'echo …'` was necessary because
+  `freeze` doesn't record the actual command line, only its output. So I had
+  to fake that by printing the command as output.
+- I had to end it with `|| true` because `freeze` aborts on an unsuccessful
+  command.
+- Default font-family and size would be `JetBrains Mono` and size `14px`
+  unless I made those changes.
+- `--window` is what adds the fake Mac terminal decoration. I'm not thrilled
+  with it but it's perhaps useful to indicate that this is a terminal.
+
+My immediate observation is that since I just had to set
+`font-family: monospace` in there then this is very unlikely to show up
+exactly like screenshots of my terminal (where I use CommitMono). It's
+possible to tell `freeze` to embed a font into the SVG but that will make the
+SVG literally megabytes in size. I'm not sure these examples really need it.
 
 All the SVGs seem to start off more zoomes out that my PNG screenshots, but
 it's actually pleasing that they look more uniform. If you do "open image in
