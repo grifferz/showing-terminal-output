@@ -124,6 +124,9 @@ Some notes:
   unless I made those changes.
 - `--window` is what adds the fake Mac terminal decoration. I'm not thrilled
   with it but it's perhaps useful to indicate that this is a terminal.
+- I had to use `-c always` on my actual command as otherwise it wouldn't
+  detect that it could use color. Could be problematic if the command doesn't
+  support that sort of thing.
 
 My immediate observation is that since I just had to set
 `font-family: monospace` in there then this is very unlikely to show up
