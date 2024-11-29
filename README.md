@@ -134,7 +134,7 @@ exactly like screenshots of my terminal (where I use CommitMono). It's
 possible to tell `freeze` to embed a font into the SVG but that will make the
 SVG literally megabytes in size. I'm not sure these examples really need it.
 
-All the SVGs seem to start off more zoomes out that my PNG screenshots, but
+All the SVGs seem to start off more zoomed out that my PNG screenshots, but
 it's actually pleasing that they look more uniform. If you do "open image in
 new tab/window" in your browser then you can zoom them in and out and they
 retain the crispness. For me it is also possible then to copy/paste the actual
