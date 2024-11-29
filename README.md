@@ -25,8 +25,16 @@ My other major concern is that it's not accessible to those using screen
 readers. I mean I _can_ include a gigantic alt text but that's quite
 difficult.
 
-Just adding these as `<img src="/ptrcheck-typical.png" />` seems to result in
-an embedded image with the width of the browser.
+Just adding these as
+
+```
+<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-typical.png">
+<img src="/ptrcheck-typical.png" />
+</a>
+```
+
+seems to result in
+an embedded image with the width of the browser that links to the raw file (without that it links to the repository page).
 
 ### Typical run
 
@@ -100,15 +108,15 @@ the PNGs.
 
 ### Typical run
 
-<img src="/ptrcheck-typical.svg" />
+<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-typical.svg"><img src="ptrcheck-typical.svg" /></a>
 
 ### Verbose run
 
-<img src="/ptrcheck-verbose.svg" />
+<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-verbose.svg"><img src="ptrcheck-verbose.svg" /></a>
 
 ### Another verbose run
 
-<img src="/ptrcheck-verbose2.svg" />
+<a href="https://raw.githubusercontent.com/grifferz/showing-terminal-output/main/ptrcheck-verbose2.svg"><img src="/ptrcheck-verbose2.svg" /></a>
 
 ## Link out to HTML
 
