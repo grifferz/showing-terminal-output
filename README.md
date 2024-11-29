@@ -12,7 +12,7 @@ The obvious choices seem to be:
 - SVG document
 - Link out to HTML
 
-Which ends up looking best for you?
+Which ends up looking best for you? Do the emoji show up in the SVGs?
 
 ## PNG image file
 
@@ -55,6 +55,12 @@ Just adding these as
 
 seems to result in an embedded image with the width of the browser that links
 to the raw file (without that it links to the repository page).
+
+Obviously these are at all different zoom levels because they're being
+stretched to the browser width while the images themselves are of different
+widths, resulting in inconsistent font size between each example. I could have
+fixed that by making each image file have the same width but I did not out of
+concern for having the highest resolution image that I could.
 
 ## SVG document
 
@@ -142,4 +148,6 @@ would lead to GitHub looking like Geocities. It may be possible to link out to
 a HTML file hosted in the repository, or to a GitHub pages site, but I'm most
 interested in this being workable from the repository view of GitHub.
 
-I'm not going to pursue this option for now.
+I'm not going to pursue this option for now. It's a pity because outside of
+the constraints of GitHub I think this would be the best option for presenting
+textual information.
