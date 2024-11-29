@@ -150,11 +150,10 @@ exactly like screenshots of my terminal (where I use CommitMono). It's
 possible to tell `freeze` to embed a font into the SVG but that will make the
 SVG literally megabytes in size. I'm not sure these examples really need it.
 
-All the SVGs seem to start off more zoomed out that my PNG screenshots, but
-it's actually pleasing that they look more uniform. Clicking/tapping on them
-leads to the actual SVG file which you can zoom in and out on and they should
-retain the crispness. For me it is also possible then to copy/paste the actual
-text.
+It doesn't seem to be possible to copy/paste or scale the SVGs from the
+Markdown view but clicking/tapping on them leads to the actual SVG file which
+you _can_ zoom in and out on and they should retain the crispness. For me it
+is also possible then to copy/paste the actual text.
 
 So my experience with this is quite positive. I think I like it better than
 the PNGs.
